@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giacche Blauer</title>
+    <!-- Stile CSS in linea -->
+    <style>
+        /* Stile per il body con immagine di sfondo */
+        body {
+            background-image: url('IMG_2678 2.JPG'); /* Percorso dell'immagine */
+            background-size: cover; /* Adatta l'immagine allo schermo */
+            background-position: center; /* Centra l'immagine */
+            background-repeat: no-repeat; /* Evita ripetizioni */
+            background-attachment: fixed; /* Sfondo fisso durante lo scroll */
+            color: white; /* Colore del testo */
+            font-family: Arial, sans-serif;
+            margin: 0; /* Rimuove il margine di default */
+            padding: 0; /* Rimuove il padding di default */
+        }
+
+        /* Stile per la barra di navigazione */
+        header nav ul {
+            display: flex;
+            list-style: none;
+            justify-content: center;
+            padding: 10px;
+            background-color: rgba(0, 0, 0, 0.7); /* Sfondo nero trasparente */
+            margin: 0;
+        }
+
+        header nav ul li {
+            margin: 0 15px;
+        }
+
+        header nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+
+        /* Stile per la sezione Hero */
+        #hero {
+            text-align: center;
+            padding: 100px 20px;
+            background-color: rgba(0, 0, 0, 0.5); /* Effetto scuro per il testo leggibile */
+        }
+
+        #hero h1 {
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
+
+        #hero p {
+            font-size: 18px;
+        }
+
+        /* Stile per la sezione Collezione */
+        #collezione {
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        #collezione h2 {
+            margin-bottom: 30px;
+            font-size: 36px;
+        }
+
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .product {
+            background-color: white;
+            color: black;
+            padding: 15px;
+            border-radius: 8px;
+            width: 250px; /* Dimensione uniforme */
+            text-align: center;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        }
+
+        .product img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .product h3 {
+            margin: 10px 0;
+        }
+
+        .product-link {
+            text-decoration: none;
+            color: white;
+            background-color: #001f3f;
+            padding: 10px 15px;
+            border-radius: 5px;
+            display: inline-block;
+        }
+
+        /* Stile per il footer */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.7);
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Collezione</a></li>
+                <li><a href="#">Chi Siamo</a></li>
+                <li><a href="#">Contatti</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section (Sezione principale) -->
+    <section id="hero">
+        <h1>Giacche Blauer</h1>
+        <p>Esplora la nostra collezione di giacche di alta qualità per ogni stagione.</p>
+        <a href="#collezione" class="product-link">Scopri la Collezione</a>
+    </section>
+
+    <!-- Collezione Giacche -->
+    <section id="collezione">
+        <h2 style="text-align: center;">La Nostra Collezione</h2>
+        <div class="products">
+            <!-- Prodotto 1 -->
+            <div class="product">
+                <img src="blauernero.JPG" alt="Giacca Blauer Nera">
+                <h3>Giacca Blauer Blu</h3>
+                <a href="#" class="product-link">Acquista Ora</a>
+            </div>
+            <!-- Prodotto 2 -->
+            <div class="product">
+                <img src="blauerblu.JPG" alt="Giacca Blauer Nera">
+                <h3>Giacca Blauer Nera</h3>
+                <a href="#" class="product-link">Acquista Ora</a>
+            </div>
+            <!-- Prodotto Cappellino 1 -->
+            <div class="product">
+                <img src="cappello1.jpeg" alt="Cappellino Monclear">
+                <h3>Cappellino Monclear Rosso</h3>
+                <a href="#" class="product-link">Acquista Ora</a>
+            </div>
+            <!-- Prodotto Cappellino 2 -->
+            <div class="product">
+                <img src="cappello2.jpeg" alt="Cappellino Monclear">
+                <h3>Cappellino Monclear Rosa</h3>
+                <a href="#" class="product-link">Acquista Ora</a>
+            </div>
+            <!-- Altri prodotti -->
+            <div class="product">
+                <img src="cappello3.jpeg" alt="Cappellino Monclear">
+                <h3>Cappellino Monclear Grigio</h3>
+                <a href="#" class="product-link">Acquista Ora</a>
+            </div>
+            <div class="product">
+                <img src="colmar2.jpg" alt="Cappellino Nero Colmar">
+                <h3>Cappellino Colmar Nero</h3>
+                <a href="#" class="product-link">Acquista Ora</a>
+            </div>
+            <div class="product">
+                <img src="colmar1.jpg" alt="Cappellino Rosa Colmar">
+                <h3>Cappellino Colmar Rosa</h3>
+                <a href="#" class="product-link">Acquista Ora</a>
+            </div>
+            <div class="product">
+                <img src="armani1.jpg" alt="Cappellino Rosso Armani">
+                <h3>Cappellino Armani Rosso</h3>
+                <a href="#" class="product-link">Acquista Ora</a>
+            </div>
+            <div class="product">
+                <img src="armani2.jpg" alt="Cappellino Rosa Armani">
+                <h3>Cappellino Armani Rosa</h3>
+                <a href="#" class="product-link">Acquista Ora</a>
+            </div>
+            <div class="product">
+                <img src="armani3.jpg" alt="Cappellino Grigio Armani">
+                <h3>Cappellino Armani Grigio</h3>
+                <a href="#" class="product-link">Acquista Ora</a>
+            </div>
+            <div class="product">
+                <img src="pradagrigio.jpg" alt="Cappellino Grigio Prada">
+                <h3>Cappellino Prada Grigio</h3>
+                <a href="#" class="product-link">Acquista Ora</a>
+            </div>
+            <div class="product">
+                <img src="pradanero.jpg" alt="Cappellino Prada Nero">
+                <h3>Cappellino Prada Nero</h3>
+                <a href="#" class="product-link">Acquista Ora</a>
+            </div>
+            <div class="product">
+                <img src="pradarosa.jpg" alt="Cappellino Prada Rosa">
+                <h3>Cappellino Prada Rosa</h3>
+                <a href="#" class="product-link">Acquista Ora</a>
+            </div>
+            <div class="product">
+                <img src="pradarosso.jpg" alt="Cappellino Prada Rosso">
+                <h3>Cappellino Prada Rosso</h3>
+                <a href="#" class="product-link">Acquista Ora</a>
+            </div>
+            <div class="product">
+                <img src="nikegrigio.JPG" alt="Cappellino Nike Grigio">
+                <h3>Cappellino Nike Grigio</h3>
+                <a href="#" class="product-link">Acquista Ora</a>
+            </div>
+            <div class="product">
+                <img src="nikenero.JPG" alt="Cappellino Nike Nero">
+                <h3>Cappellino Nike Nero</h3>
+                <a href="#" class="product-link">Acquista Ora</a>
+            </div>
+            <div class="product">
+                <img src="nikerosso.JPG" alt="Cappellino Nike Rosso">
+                <h3>Cappellino Nike Rosso</h3>
+                <a href="#" class="product-link">Acquista Ora</a>
+            </div>
+            <div class="product">
+                <img src="guccigrigio.JPG" alt="Cappellino Gucci Grigio">
+                <h3>Cappellino Gucci Grigio</h3>
+                <a href="#" class="product-link">Acquista Ora</a>
+            </div>
+            <div class="product">
+                <img src="guccinero.JPG" alt="Cappellino Gucci Nero">
+                <h3>Cappellino Gucci Nero</h3>
+                <a href="#" class="product-link">Acquista Ora</a>
+            </div>
+            <div class="product">
+                <img src="guccirosa.JPG" alt="Cappellino Gucci Rosa">
+                <h3>Cappellino Gucci Rosa</h3>
+                <a href="#" class="product-link">Acquista Ora</a>
+            </div>
+            <div class="product">
+                <img src="guccirosso.JPG" alt="Cappellino Gucci Rosso">
+                <h3>Cappellino Gucci Rosso</h3>
+                <a href="#" class="product-link">Acquista Ora</a>
+            </div>
+            <div class="product">
+                <img src="smanicato1.jpg" alt="Smanicato Monclear">
+                <h3>Smanicato Monclear Blu Scuro</h3>
+                <a href="#" class="product-link">Acquista Ora</a>
+            </div>
+            <div class="product">
+                <img src="smanicato2.JPG" alt="Smanicato Monclear">
+                <h3>Smanicato Monclear Blu Chiaro</h3>
+                <a href="#" class="product-link">Acquista Ora</a>
+            </div>
+            <div class="product">
+                <img src="smanicato3.JPG" alt="Smanicato Monclear">
+                <h3>Smanicato Monclear Nero</h3>
+                <a href="#" class="product-link">Acquista Ora</a>
+            </div>
+            <div class="product">
+                <img src="monclear.JPG" alt="Giacca Monclear">
+                <h3>Giacca Monclear Nera</h3>
+                <a href="#" class="product-link">Acquista Ora</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Giacche Blauer. Tutti i diritti riservati.</p>
+        <p>Per info e/o prenotazioni contattare il numero 3791867275.</p>
+    </footer>
+
+</body>
+</html>
